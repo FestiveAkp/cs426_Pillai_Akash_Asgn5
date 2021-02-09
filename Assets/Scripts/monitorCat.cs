@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class lightCat : MonoBehaviour
+public class monitorCat : MonoBehaviour
 {
-    public Light myLight;
+    public GameObject monitor;
 
     void Start()
     {
-        myLight = myLight.GetComponent<Light>();
+        //monitor = monitor.GetComponent<GameObject>();
     }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Cat"))
         {
-            print("Cat lightswitch activated");
-            myLight.enabled = false;
+            print("Cat monitor switch activated");
+            monitor.SetActive(false);
         }
     }
 }
