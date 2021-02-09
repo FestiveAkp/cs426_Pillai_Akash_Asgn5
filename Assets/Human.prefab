@@ -296,7 +296,6 @@ MonoBehaviour:
   moveSpeed: 10
   jumpForce: 90
   camera: {fileID: 6254826647306725343}
-  anim: {fileID: 0}
   isGrounded: 0
 --- !u!1 &9134654878451285225
 GameObject:

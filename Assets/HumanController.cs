@@ -17,7 +17,7 @@ public class HumanController : NetworkBehaviour
     private float maxTurnAngle = 90f;
     private float rotationX;
     private Rigidbody rb;
-    public Animation anim;
+    private Animation anim;
     public bool isGrounded = false;
 
     void Start()
