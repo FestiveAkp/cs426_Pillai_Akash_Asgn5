@@ -36,8 +36,10 @@ public class PlayerMove : NetworkBehaviour
     {
         if (!isLocalPlayer) 
         {
-            return;
+            camera.enabled = false;
         }
+
+        camera.enabled = true;
 
         // Jump
         if (isGrounded && Input.GetAxis("Jump") > 0)
