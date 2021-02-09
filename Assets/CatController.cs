@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class PlayerMove : NetworkBehaviour
+public class CatController : NetworkBehaviour
 {
     public float moveSpeed = 7.5f;
     public float jumpForce = 30f;
