@@ -17,11 +17,13 @@ public class HumanController : NetworkBehaviour
     private float maxTurnAngle = 90f;
     private float rotationX;
     private Rigidbody rb;
+    public Animation anim;
     public bool isGrounded = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        anim = GetComponentInChildren<Animation>();
         Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -51,6 +53,16 @@ public class HumanController : NetworkBehaviour
         // Get keyboard input and move player
         Vector3 keyboardInput = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         transform.Translate(keyboardInput * moveSpeed * Time.deltaTime);
+
+        // Animate
+        if (keyboardInput.x != 0 || keyboardInput.z != 0)
+        {
+            anim.Play();
+        }
+        else
+        {
+            anim.Stop();
+        }
     }
 
     void OnCollisionEnter(Collision collision)
