@@ -73,6 +73,10 @@ public class HumanController : NetworkBehaviour
         {
             Cursor.lockState = CursorLockMode.Locked;
         }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            Physics.gravity = new Vector3(0f, 0f, 0f);
+        }
     }
 
     void OnCollisionEnter(Collision collision)
