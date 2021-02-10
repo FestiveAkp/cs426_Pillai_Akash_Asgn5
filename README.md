@@ -1,6 +1,6 @@
 # cs426_Kamleh_Emily_Asgn2
 
-FEs, multiplayer, unusual procedure, how followed game theme, Executive summary
+NOTE TO SELF: FEs, multiplayer, unusual procedure, how followed game theme, Executive summary
 
 **Game Description and how it relates to the theme:**
 A human has a lot of work to get done on their computer, but their cat has other plans.
