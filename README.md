@@ -23,7 +23,7 @@ Controlled by server (one player)
 Can walk through entire house, trying to fix whatever the cat has messed up
 Is controlled simultaneously (can be played as while human is being played as)
 Movement controlled by WASD keys, camera controlled by mouse
-If the cat has turned off gravity, press down arrow key to cancel that action
+If the cat has turned off gravity, repeatedly press down arrow key to cancel that action
 
 **Cat**
 Controlled by client (one player)
@@ -50,3 +50,4 @@ The main conflict for the human is his opponent, his pet cat.
 Physical: there are walls that don't let either of the characters leave the house.
 
 **Executive Summary:**
+Our game is a two player game targeted towards players that don't care to play games that have a story to tell or are very serious. The targeted age range is from 5 to 15. This game is also aimed at all genders.
