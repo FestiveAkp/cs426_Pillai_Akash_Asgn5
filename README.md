@@ -1,12 +1,12 @@
 # cs426_Kamleh_Emily_Asgn2
 
-NOTE TO SELF: FEs, multiplayer, unusual procedure, how followed game theme, Executive summary
-
 **Game Description and how it relates to the theme:**
+
 A human has a lot of work to get done on their computer, but their cat has other plans.
 This is a two player game in which the server plays as the human and the client plays as a cat.
 When playing as the human, you have some work to do at your computer, but your pet cat will try their best not to let you.
 As the cat, you must step on different plates that are placed around the house in order to stop the human from getting their work done.
+This relates to the theme because one of the players is a cat, and the other player has to work on a computer.
 
 
 **The Formal Elements (FE) in our game are as follows:**
@@ -37,15 +37,16 @@ Movement controlled by WASD keys, camera controlled by mouse
 
 **Special Action:** The cat can turn gravity on or off.
 
-**Resolving Actions:** The human wins the game if they can complete their work. If not, the cat wins.
-
 **Rules:**
-There is a human and a cat. If playing as the human, you must get your work done. If playing as the cat, you must 
+There is a human and a cat. If playing as the human, you must get your work done. If playing as the cat, you must try to distract the human.
 
-**Resources:**
+**Resources:** 
+There are plates around the house that the cat can use to distract the human. One turns off gravity, one turns off the light, etc. The human can also use pressure pads to reverse the effects caused by the cat.
 
 **Conflict:**
+The main conflict for the human is his opponent, his pet cat.
 
 **Boundaries:**
+Physical: there are walls that don't let either of the characters leave the house.
 
-**Outcome:**
+**Executive Summary:**
