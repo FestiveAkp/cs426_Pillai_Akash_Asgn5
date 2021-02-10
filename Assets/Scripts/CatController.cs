@@ -27,9 +27,8 @@ public class CatController : NetworkBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-
-        Cursor.lockState = CursorLockMode.Locked;
         targetDistance = Vector3.Distance(camera.transform.position, gameObject.transform.position + new Vector3(0, 10, 0));
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
@@ -37,6 +36,7 @@ public class CatController : NetworkBehaviour
         if (!isLocalPlayer) 
         {
             camera.enabled = false;
+            return;
         }
 
         camera.enabled = true;
@@ -71,6 +71,16 @@ public class CatController : NetworkBehaviour
             Quaternion modelRotation = Quaternion.LookRotation(moveDirection);
             float rotationSpeed = 0.05f;
             model.transform.rotation = Quaternion.Slerp(model.transform.rotation, modelRotation, rotationSpeed);
+        }
+
+        // Lock and unlock mouse pointer
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 

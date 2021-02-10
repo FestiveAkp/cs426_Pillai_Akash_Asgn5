@@ -63,6 +63,16 @@ public class HumanController : NetworkBehaviour
         {
             anim.Stop();
         }
+
+        // Lock and unlock mouse pointer
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
     }
 
     void OnCollisionEnter(Collision collision)
