@@ -397,7 +397,7 @@ GameObject:
   - component: {fileID: 142672982}
   - component: {fileID: 142672981}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: Text - (1) Turn on lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1185,7 +1185,7 @@ GameObject:
   - component: {fileID: 344132657}
   - component: {fileID: 344132656}
   m_Layer: 0
-  m_Name: Text (TMP) (8)
+  m_Name: Text - (CAT) Turn off power supply
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1451,6 +1451,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myLight: {fileID: 752932959}
+  catText: {fileID: 1664583529}
+  humanText: {fileID: 2112500669}
 --- !u!1 &367443663
 GameObject:
   m_ObjectHideFlags: 0
@@ -1558,7 +1560,7 @@ GameObject:
   - component: {fileID: 373900534}
   - component: {fileID: 373900533}
   m_Layer: 0
-  m_Name: Text (TMP) (1)
+  m_Name: Text - (2) Turn on monitor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1842,7 +1844,7 @@ GameObject:
   - component: {fileID: 499387721}
   - component: {fileID: 499387720}
   m_Layer: 0
-  m_Name: Text (TMP) (9)
+  m_Name: Text - (CAT) Turn off the lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2108,6 +2110,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myLight: {fileID: 101699699}
+  catText: {fileID: 1117235539}
+  humanText: {fileID: 1323066551}
 --- !u!1001 &532038023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2408,6 +2412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myLight: {fileID: 665276984}
+  text: {fileID: 142672981}
 --- !u!65 &583390491
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3138,6 +3143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myLight: {fileID: 101699699}
+  text: {fileID: 1323066551}
 --- !u!65 &827490579
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3323,6 +3329,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monitor: {fileID: 206813810}
+  catText: {fileID: 888664068}
+  humanText: {fileID: 373900533}
 --- !u!1001 &842624929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3483,7 +3491,7 @@ GameObject:
   - component: {fileID: 888664069}
   - component: {fileID: 888664068}
   m_Layer: 0
-  m_Name: Text (TMP) (7)
+  m_Name: Text - (CAT) Turn off the monitor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3936,6 +3944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myLight: {fileID: 752932959}
+  text: {fileID: 2112500669}
 --- !u!65 &986914923
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4216,6 +4225,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myLight: {fileID: 1209408652}
+  catText: {fileID: 344132656}
+  humanText: {fileID: 1532417751}
 --- !u!1001 &1023986787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4625,7 +4636,7 @@ GameObject:
   - component: {fileID: 1117235540}
   - component: {fileID: 1117235539}
   m_Layer: 0
-  m_Name: Text (TMP) (5)
+  m_Name: Text - (CAT) Turn off the computer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5428,7 +5439,7 @@ GameObject:
   - component: {fileID: 1323066552}
   - component: {fileID: 1323066551}
   m_Layer: 0
-  m_Name: Text (TMP) (4)
+  m_Name: Text - (5) Turn on the computer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5887,6 +5898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myLight: {fileID: 1209408652}
+  text: {fileID: 1532417751}
 --- !u!65 &1472418291
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5975,7 +5987,7 @@ GameObject:
   - component: {fileID: 1532417752}
   - component: {fileID: 1532417751}
   m_Layer: 0
-  m_Name: Text (TMP) (2)
+  m_Name: Text - (3) Turn on power supply
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6411,6 +6423,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myLight: {fileID: 665276984}
+  catText: {fileID: 499387720}
+  humanText: {fileID: 142672981}
 --- !u!65 &1569046290
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6871,7 +6885,7 @@ GameObject:
   - component: {fileID: 1664583530}
   - component: {fileID: 1664583529}
   m_Layer: 0
-  m_Name: Text (TMP) (6)
+  m_Name: Text - (CAT) Unclick the mouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7395,6 +7409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monitor: {fileID: 206813810}
+  text: {fileID: 373900533}
 --- !u!65 &1846302061
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7824,7 +7839,7 @@ GameObject:
   - component: {fileID: 2112500670}
   - component: {fileID: 2112500669}
   m_Layer: 0
-  m_Name: Text (TMP) (3)
+  m_Name: Text - (4) Click the mouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

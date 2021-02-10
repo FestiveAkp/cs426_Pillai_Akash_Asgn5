@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class lightCat : MonoBehaviour
 {
     public Light myLight;
+    public TextMeshPro catText;
+    public TextMeshPro humanText;
 
     void Start()
     {
@@ -16,6 +19,8 @@ public class lightCat : MonoBehaviour
         {
             print("Cat lightswitch activated");
             myLight.enabled = false;
+            humanText.color = Color.red;
+            catText.color = Color.green;
         }
     }
 }

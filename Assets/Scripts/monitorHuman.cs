@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class monitorHuman : MonoBehaviour
 {
     public GameObject monitor;
+    public TextMeshPro text;
 
     void Start()
     {
@@ -16,6 +18,7 @@ public class monitorHuman : MonoBehaviour
         {
             print("Human monitor switch activated");
             monitor.SetActive(true);
+            text.color = Color.green;
         }
     }
 }
