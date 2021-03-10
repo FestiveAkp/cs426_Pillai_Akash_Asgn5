@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - door
   - Cat
+  - Player Camera
   layers:
   - Default
   - TransparentFX

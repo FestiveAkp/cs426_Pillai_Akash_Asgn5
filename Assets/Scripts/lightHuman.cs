@@ -7,6 +7,7 @@ public class lightHuman : MonoBehaviour
 {
     public Light myLight;
     public TextMeshPro text;
+    public AudioSource pcAudio;
 
     void Start()
     {
@@ -19,6 +20,7 @@ public class lightHuman : MonoBehaviour
             print("Human lightswitch activated");
             myLight.enabled = true;
             text.color = Color.green;
+            pcAudio.Play();
         }
     }
 }

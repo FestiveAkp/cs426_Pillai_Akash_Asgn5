@@ -20,6 +20,9 @@ public class HumanController : NetworkBehaviour
     private Animation anim;
     public bool isGrounded = false;
 
+    public GameObject cannon;
+    public GameObject bullet;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -76,6 +79,14 @@ public class HumanController : NetworkBehaviour
         if (Input.GetKey(KeyCode.DownArrow))
         {
             Physics.gravity = new Vector3(0f, 0f, 0f);
+        }
+
+        // Throw ping-pong ball
+        if (Input.GetButtonDown("Fire1"))
+        {
+            GameObject newBullet = Instantiate(bullet, cannon.transform.position, cannon.transform.rotation);
+            newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 2;
+            newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
         }
     }
 
