@@ -1,4 +1,4 @@
-# cs426_Kamleh_Emily_Asgn2
+# cs426_Pillai_Akash_Asgn5
 
 **Game Description and how it relates to the theme:**
 
@@ -51,3 +51,20 @@ Physical: there are walls that don't let either of the characters leave the hous
 
 **Executive Summary:**
 Our game is a two player game targeted towards players that don't care to play games that have a story to tell or are very serious. The targeted age range is from 5 to 15. This game is also aimed at all genders.
+
+## Changes for Assignment 5
+**Physics Constructs**
+- The player can left-click to throw little balls that bounce off of the walls and floor, which helps establish a facet of the relationship between the player and the cat.
+- The stovetop inside the kitchen has a particle system mimicing fire, signaling that the player was cooking something in the kitchen before the game began.
+
+**Billboard**
+- There's a cactus on the living room table which is a quad that always faces the player, which adds a personal touch to the design of the living room.
+
+**Lights**
+- There are two lights, one of which is colored purple, in the living room, which help illuminate and add personality to the room.
+
+**Sounds**
+- When the player enters the kitchen, they can hear the sound of food sizzling on the stove, adding to the feeling of being at home
+- When the player turns on the computer, they can hear the sound of the computer turning on, providing feedback that the player was successful
+- Both sounds are distance-sensitive, and get fainter as the player moves away from the sound source
+
